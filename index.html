@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link de CSS bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Usarios</title>
+</head>
+
+<body>
+    <h2>USUARIOS</h2>
+        <p>Aprieta el boton para leer a los usuarios.</p>
+
+        <button onclick="solicitudFetch()">Check</button>
+        <hr>
+
+
+   <div class="container-md my-4">
+        <table class="table table-responsive text-center">
+          <thead class="text-center">
+            <tr class="table-success">
+              <th>id</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>e-mail</th>
+              <th>Image</th>
+            </tr>
+          </thead>
+          <tbody id="users-container" class="text-center">
+    
+          </tbody>
+   </div>
+
+
+    <!-- Enlace con el js bootstrap -->
+    <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
+    <!-- NOTE. No supe porqué no pude usar los links localmente. -->
+
+    <!-- Enlace con el JS-->
+    <script src="./scripts/usuarios.js"></script>
+
+</body>
+
+</html>
