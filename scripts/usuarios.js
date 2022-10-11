@@ -41,6 +41,7 @@ const solicitudFetch = () =>{
 
     function printUsers (users){
             const container = document.getElementById("users-container")
+            container.innerHTML="";
             users.forEach(u => container.innerHTML += printUser(u))
     }    
     
